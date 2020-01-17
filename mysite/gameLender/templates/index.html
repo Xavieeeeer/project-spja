@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 align="center"> Available platforms and games </h1>
+ <header class="site-header">
+     <form>
+
+    <br>
+
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="https://www.google.com/search?q={{ question.name }}">{{ question.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+ <br>
+     </form>
+     <div align="center">
+{% if latest_games_list %}
+    <ul>
+    {% for question in latest_games_list %}
+        <li><a href="https://www.google.com/search?q={{ question.name }}">{{ question.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+ <br>
+
+</div>
+  </header>
+
+{% endblock content %}

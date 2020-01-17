@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game lander</title>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:" rel="stylesheet">
+<link href="{% static 'css/base.css' %}" rel="stylesheet">
+</head>
+<body>
+<header>
+   <div class="nav-center">
+        <h1>
+        <a href="{% url 'index' %}"> Game lender </a>
+        </h1>
+   </div>
+
+
+
+</header>
+<hr>
+<div class="nav-right">
+        <a href="{% url 'about' %}">
+            about app
+        </a>
+    </div>
+{% if user.is_authenticated %}
+<p>Hello {{ user.username }}!</p>
+<p><a href="{% url 'logout' %}">Log out</a></p>
+{% else %}
+<p>You are not logged in.</p>
+<a href="{% url 'login' %}">Log In</a>
+<p>Go to register</p>
+<a href="/register">Register</a>
+{% endif %}
+<div>
+    {% block content %}    <!-- Here put another page -->
+    {% endblock content %}
+</div>
+</body>
+</html>

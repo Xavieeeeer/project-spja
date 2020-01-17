@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<article class="media content-section">
+    <div class="media-body">
+
+        <h2 class="article-title">{{ game.name }}</h2>
+        <p class="article-content">{{ game.genre.name }}</p>
+        <p class="article-content">{{ game.cost }}</p>
+        <p class="article-content">{{ game.game_studio }}</p>
+
+    </div>
+</article>
+
+
+
+
+
+{% endblock content %}

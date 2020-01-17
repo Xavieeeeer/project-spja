@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<hr>
+{% for game in games%}
+<article class="media content-section">
+    <div class="media-body">
+        <h2><a class="article-title" href="detail/{{game.id}}">{{ game.name }}</a></h2>
+        <div class="article-metadata">
+            <small class="text-muted">{{ game.steam_price}}</small>
+        </div>
+        <p class="article-content">{{ game.genre.name }}</p>
+    </div>
+</article>
+<hr>
+{% endfor %}
+{% endblock content %}

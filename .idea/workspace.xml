@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c303d1e2-e17f-4de3-b105-25479527a064" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VACTlPGsFIFqxkm1ahB149zieS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mysite/gameLender/templates/registration" />
+      <recent name="$PROJECT_DIR$/../mysite/gameLender/templates" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c303d1e2-e17f-4de3-b105-25479527a064" name="Default Changelist" comment="" />
+      <created>1576686524106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576686524106</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="355" y="268" width="598" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578947559349">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="355" y="268" width="598" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1530.873@70.27.1530.873" timestamp="1578947559349" />
+    <state x="546" y="268" width="568" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.2554.873@70.27.2554.873" timestamp="1578833076206" />
+    <state x="324" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1576686585995">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="324" y="98" width="1022" height="737" key="SettingsEditor/70.27.1530.873@70.27.1530.873" timestamp="1576686585995" />
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1578995791251">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1578995791251" />
+  </component>
+</project>
